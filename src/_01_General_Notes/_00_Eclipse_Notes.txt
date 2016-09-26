@@ -69,9 +69,18 @@ Here's how the structure of your project will look.
 	    	_01_numbers.java  
 	    		-> TODO: Create examples of the following Primitive Types: byte, short, int, long, float, double
 	    		-> TODO: Make a few notes/comments about the limits and possible uses for each one
+	    		
+	    		for byte number you have to set it first like b = 2. byte has value range of-128 to 127, useful for saving memory.
+	    		for short: the values are -32768 to 3276, works similarly to byte
+	    		for int: it has a higher value
+	    		for long: even higher value range
+	    		float: has one decimal
+	    		double: has a decimal
 	    	_02_operators.java
 	    		-> TODO: Show examples of various math operators(hint, we studied these last week).
 	    		-> TODO: Include examples of shorthand operators.
+	    		
+	    		
 	    	_03_demo_story.java
 	    		-> TODO: Go to the following url -> https://repl.it/DhOp/1. Copy and paste the code into this file and run it. 
 	    		-> TODO: Read and analyze the code and make sure you understand it. 
