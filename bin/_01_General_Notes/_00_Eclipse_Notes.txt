@@ -44,10 +44,14 @@ Here's how the structure of your project will look.
 			_00_Eclipse_Notes.txt
 				-> TODO: Figure out how to change the background in Eclipse. Put a note in this file that tells how to do it.
 				-> TODO: Figure out how to see and use a TODO List in Eclipse. Put a note on how to do it.
+					Task List > New Task
 				-> TODO: Start figuring out a few common shortcuts and start making a list in this file. 
 						This will be a list you come back to and keep adding shortcuts as you learn them.
 						For instance, how do we get System.out.println to spit out without typing it all out?
 						How about the "main" function for classes?				
+						
+			cmd+d delete row cmd+1 quick fix cmd + / for commenting out 
+			https://www.shortcutworld.com/en/win/Eclipse.html
 
 /**************************************Be Sure to commit your code********************************/
 		>_02_HelloWorld
@@ -58,7 +62,7 @@ Here's how the structure of your project will look.
 									#1 Hello World
 									#2 Hello ->This will use a different method than #1.
 									   World
-
+		Can do println or print or printf
 /**************************************Be Sure to commit your code********************************/
 
 	    >_03_numbers
