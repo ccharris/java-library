@@ -24,12 +24,32 @@ public class _01_while {
 		
 //		SILVER:
 //			//Use a while loop that lists out each letter of your name.
-
+			int count = 0;
+			String nameString = "CAROLYN";
+			while (count < nameString.length() ) {
+				System.out.println(nameString.charAt(count));
+				count++;
+				
+			}
+//			GOLD:
+//			/Create a while loop that prints your name backwards.
+		
+			String name = "CAROLYN";
+			int length = name.length();
+			String reverse = "";
+			int i = length - 1;
+			while (i >= 0 ) {
+				reverse = reverse + name.charAt(i);
+				i --;
+				
+			}
+			System.out.println(reverse);
+			
+			
 
 			}
-//		GOLD:
-//			/Create a while loop that prints your name backwards.
+
 
 	}
 
-}
+

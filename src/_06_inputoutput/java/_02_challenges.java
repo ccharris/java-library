@@ -78,6 +78,8 @@ public class _02_challenges {
 						System.out.println("You've had enough of this spooky place, and turn quickly and run away.");
 					}
 					
+				} else{
+					System.out.println("You run the other direction quickly, determined not to get eaten. Unfortunately for you, you fall in a hole, break your leg, and die of an infection before you can reach civilization.");
 				}
 			}else{
 				System.out.println("You shake your head, no way are you going down there, you stay to the right away from the loud noise.");
