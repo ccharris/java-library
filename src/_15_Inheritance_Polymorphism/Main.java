@@ -1,4 +1,4 @@
-package _15_Inheritance;
+package _15_Inheritance_Polymorphism;
 
 public class Main {
 
@@ -15,11 +15,23 @@ public class Main {
 		kangy.isWarmBlooded = true;
 		kangy.name = "Jack";
 		
+		Mouse littleMouse = new Mouse();
+		
 		barney.printName();
 		kangy.printName();
 		george.printName();
-		kangy.askNumTeeth();
+//		kangy.askNumTeeth();
 		kangy.getBloodType();
+		
+		
+		barney.speak();
+		kangy.speak();
+		littleMouse.speak();
+		littleMouse.sleep();
+		kangy.sleep();
+		george.sleep();
+		barney.sleep();
+		
 	}
 
 }

@@ -17,7 +17,9 @@ public class Employee {
 		this.birthYear = birthYear;
 	}
 	
-	
+	public void employmentDetails(){
+		System.out.println(name + " makes $" + salary + " and started in " + startYear + " and was born in " + birthYear + ".");
+	}
 	
 	
 }

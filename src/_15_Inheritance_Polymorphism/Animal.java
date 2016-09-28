@@ -1,4 +1,4 @@
-package _15_Inheritance;
+package _15_Inheritance_Polymorphism;
 
 import java.util.Scanner;
 
@@ -28,6 +28,13 @@ public class Animal {
 		} else {
 			System.out.println(name + " is not warm blooded");
 		}
+	}
+	
+	public void speak() {
+		System.out.println("I am an animal");
+	}
+	public void sleep() {
+		System.out.println("I like sleeping a little bit every day!");
 	}
 	
 	
