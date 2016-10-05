@@ -1,5 +1,7 @@
 package _15_Inheritance_Polymorphism;
 
+import _17_Encapsulation.Patriots;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -16,6 +18,10 @@ public class Main {
 		kangy.name = "Jack";
 		
 		Mouse littleMouse = new Mouse();
+		
+		Patriots tBrady = new Patriots();
+		tBrady.name = "Tom Brady";
+		
 		
 		barney.printName();
 		kangy.printName();
